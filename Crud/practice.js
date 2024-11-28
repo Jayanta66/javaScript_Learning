@@ -1,6 +1,6 @@
 
 var selectedRow = null;
-function myfunction(e) {
+function myfunction() {
     event.preventDefault();
     var formData = readFormData();
     if(selectedRow == null){

@@ -17,3 +17,9 @@ document.write(e.id+" "+e.name+" "+e.title);
 
 e.fullname("JAYANTA_HALDER");
 document.write("<br>"+e.id+" "+e.name+" "+e.title);
+
+
+function me(){
+document.write("Button is clicked");
+alert("Ohhoo its clicked");
+}
