@@ -1,3 +1,5 @@
+
+//BUDGET CONTROLLER
 var budgetController = (function(){
 
 var x = 23;
@@ -18,7 +20,16 @@ var add = function(a){
 
 })();
 
+//UI CONTROLLER
+var UIController = (function(){
 
+
+
+})();
+
+
+
+//GLOBAL CONTROLLER
 var UIController = (function(budgetCtrl,UIctrl){
 
 	var z = budgetCtrl.publicTest(5);
