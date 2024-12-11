@@ -85,3 +85,88 @@ console.log(x);
 console.log(x);
 --x
 console.log(x);
+
+
+//Comparison Operators (>, < , >= , <=)
+console.log("Comparison Operators  >, < , >= , <=");
+console.log(ageJonas > ageSarah);
+console.log(ageJonas >= ageSarah);
+const isFullAge = ageSarah >= 18;
+
+
+//Operator Precedence 
+console.log("Operator Precedence ");
+console.log(now - 1991 > now - 2018);
+
+console.log(25 - 10 - 5);
+
+let a,y;
+a = y = 25 - 10 - 5;
+console.log(a,y);
+
+const avarageAge = ageJonas + ageSarah / 2;
+console.log(ageJonas,ageSarah,avarageAge);
+
+//Coding Chalange : 1
+// console.log("Coding Chalange : 1");
+// const massMark = 78;
+// const heightMark= 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
+
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// const markHigherBMI = BMIMark > BMIJohn;
+// console.log(BMIMark,BMIJohn,markHigherBMI);
+
+
+//String and Template Literals
+console.log("String and Template Literals");
+
+const jonas = "I'm "+firstName;
+console.log(jonas);
+
+const jonass = "I'm ${firstName}";
+console.log(jonas);
+
+//multiline
+console.log("multiline \n\in \n\javaScript");
+
+//If Else
+console.log("If Else");
+
+const agee = 15;
+
+const isOldEnough = age >=18;
+if(isOldEnough){
+
+    console.log("Sarah can start driving license");
+}
+
+
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / (heightMark * heightMark);
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIMark, BMIJohn);
+
+
+if(BMIMark >BMIJohn ){
+    console.log("Mark's BMI is higher than John");
+
+}else{
+    console.log("John's BMI is higher than Mark");
+
+}
+
+
+
+//Conversion and coercion
+console.log("If Else");
+
+const inputYear = '1991';
+console.log(Number(inputYear));
+console.log(inputYear+18);
