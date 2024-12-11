@@ -236,7 +236,7 @@ if(scoreDolphins > scoreKoalas && scoreDolphins >= 100){
 //Switch
 console.log("Switch");
 
-const day = 'monday';
+const day = 'tuesday';
 switch(day){
 
     case 'monday':
@@ -266,3 +266,15 @@ switch(day){
         console.log("Not a vaild day!!");
 
 }
+
+
+//Ternary Operator
+console.log("Ternary Operator");
+
+const ageee = 23;
+ageee >= 18 ? console.log("I like to drink wine") : console.log("I like to drink water");
+
+
+
+//Coding Challenge : 4
+console.log("Coding Challenge : 4");
