@@ -9,7 +9,10 @@ console.log(firstName);
 
 //Assignment 1
 console.log("Assignment 1")
+console.log("#####################################################");
+
 console.log("Values and Variables Declare variables called country, continent and population and assign their values according to your own country.Log their values to the console.");
+console.log("#####################################################");
 
 let country = "India";
 let continent = "Asia";
@@ -31,3 +34,34 @@ console.log(typeof "Jonas");
 javaScriptIsFun = 'Yes';
 console.log(javaScriptIsFun);
 console.log(typeof javaScriptIsFun);
+console.log("#####################################################");
+
+
+console.log("        ")
+console.log("#####################################################");
+console.log("let , const , var ");
+//let , const , var 
+
+//mutabe(can be change)
+let age =30;
+age = 31;
+
+//immutable(can not be change)
+const birthYear = 1991;
+//birthYear = 1992;
+
+
+var job="programmer";
+job='teacher';
+
+//Operators
+console.log("        ")
+console.log("#####################################################");
+console.log("Operators");
+
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+console.log(ageJonas, ageSarah);
+
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
