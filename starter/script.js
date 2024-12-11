@@ -278,3 +278,6 @@ ageee >= 18 ? console.log("I like to drink wine") : console.log("I like to drink
 
 //Coding Challenge : 4
 console.log("Coding Challenge : 4");
+const bill = 273;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+console.log( `${bill}`);
