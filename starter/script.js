@@ -165,8 +165,20 @@ if(BMIMark >BMIJohn ){
 
 
 //Conversion and coercion
+
+
+//type Conversion 
 console.log("If Else");
 
 const inputYear = '1991';
 console.log(Number(inputYear));
 console.log(inputYear+18);
+
+
+//type coercion(different types together)
+
+console.log("I am"+23+" years old.");
+
+let n = '1'+1;
+n = n+1;
+console.log(n);
