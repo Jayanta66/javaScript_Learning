@@ -26,3 +26,8 @@ console.log(javaScriptIsFun);
 console.log(typeof true);
 console.log(typeof 23);
 console.log(typeof "Jonas");
+
+//dynamic typeing
+javaScriptIsFun = 'Yes';
+console.log(javaScriptIsFun);
+console.log(typeof javaScriptIsFun);
