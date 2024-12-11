@@ -188,3 +188,47 @@ console.log("Truthy and Falsy value");
 
 // 5 falsy value
 console.log('5 Falsy value : 0, "", undefined, null, NaN ');
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Jonas"));
+console.log(Boolean({}));
+console.log(Boolean(''));
+
+
+const money =0;
+if(money){
+console.log("Don't spend it all");
+
+}else{
+    console.log("You should get a job");
+
+}
+
+//Logical Operator
+console.log("Logical Operator");
+
+const hasDriversLicense = true;
+const hasGoodVision = false;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(hasDriversLicense);
+
+
+//Coding Challange :3
+console.log("Coding Challange : 3");
+const scoreDolphins =(97 + 112 + 80) / 3;
+const scoreKoalas =(103 + 95 + 50) / 3;
+console.log(scoreDolphins,scoreKoalas);
+
+if(scoreDolphins > scoreKoalas && scoreDolphins >= 100){
+
+    console.log("Dolphins win the trophy");
+}else if(scoreKoalas > scoreDolphins && scoreKoalas >= 100){
+    console.log('Koalas win the trophy');
+}else if(scoreDolphins > scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100){
+    console.log('Both win the trophy');
+}else{
+    console.log('No one win the trophy');
+
+}
