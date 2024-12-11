@@ -182,3 +182,9 @@ console.log("I am"+23+" years old.");
 let n = '1'+1;
 n = n+1;
 console.log(n);
+
+//Truthy and Falsy value
+console.log("Truthy and Falsy value");
+
+// 5 falsy value
+console.log('5 Falsy value : 0, "", undefined, null, NaN ');
