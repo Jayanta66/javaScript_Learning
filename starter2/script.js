@@ -9,6 +9,8 @@ if(hasDriverLicense) console.log('I can drive :D');
 
 console.log(" ");
 console.log("Functions");
+console.log("JavaScript has 2 types of Functions");
+
 console.log("#############################################");
 console.log(" ");
 
