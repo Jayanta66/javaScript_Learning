@@ -150,6 +150,8 @@ console.log(frinds);
 console.log(frinds[0]);
 console.log(frinds[1]);
 console.log(frinds[2]);
+console.log(frinds.length);
+
 
 
 const years = new Array(1991,1992,1993,2001);
@@ -157,5 +159,18 @@ console.log(years);
 
 const firendd = new Array(1991,'Michael','Steven',"Peter");
 console.log(firendd);
+
+const calcAgee = function (birthYear){
+    return 2037 - birthYear;
+}
+
+const yearss = [1991,1992,1665,2011];
+
+const agge1 = calcAgee(years[0]);
+const agge2 = calcAgee(years[1]);
+const agge3 = calcAgee(years[2]);
+const agge4 = calcAgee(years[3]);
+console.log(agge1,agge2,agge3,agge4);
+
 
 
