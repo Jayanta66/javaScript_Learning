@@ -140,3 +140,18 @@ console.log(" ");
 console.log("Array");
 console.log("#############################################");
 console.log(" ");
+
+const frind1 = "Michael";
+const frind2 = "Steven";
+const frind3 = "Peter";
+
+const frinds = ['Michael','Steven',"Peter"];
+console.log(frinds);
+
+const years = new Array(1991,1992,1993,2001);
+console.log(years);
+
+const firendd = new Array(1991,'Michael','Steven',"Peter");
+console.log(firendd);
+
+
