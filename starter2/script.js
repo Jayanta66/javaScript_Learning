@@ -21,11 +21,11 @@ function logger(){
 
 logger();
 
-function fruitProcessor(apples, oranges){
-    console.log(apples,oranges);
-    const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
-    return juice;
-}
+// function fruitProcessor(apples, oranges){
+//     console.log(apples,oranges);
+//     const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+//     return juice;
+// }
 
 const appleJuice =fruitProcessor(5,0);
 console.log(appleJuice);
@@ -86,3 +86,19 @@ console.log(" ");
 console.log("Function calling into another function");
 console.log("#############################################");
 console.log(" ");
+
+function cutFruitPieces(fruit){
+    return fruit * 4;
+}
+
+function fruitProcessor(apples, oranges){
+
+    const applePieces =cutFruitPieces(apples);
+    const orangePieces =cutFruitPieces(oranges);
+
+  //  console.log(apples,oranges);
+    const juice = `Juice with ${applePieces} Pieces of apples and ${orangePieces} Pieces of oranges.`;
+    return juice;
+}
+
+console.log(fruitProcessor(2,3));
