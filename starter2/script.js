@@ -195,3 +195,17 @@ console.log(" ");
 console.log("Object");
 console.log("#############################################");
 console.log(" ");
+
+const jonas = {
+    firstName:"Jonas",
+    lastName:"Schmedman",
+    age:25,
+    job:"teacher",
+    friends:['Michael','Steven',"Peter"]
+}
+
+console.log(jonas.firstName);
+console.log(jonas[`firstName`]);
+
+const nameKey = "Name";
+console.log(jonas[`first`+nameKey]);
