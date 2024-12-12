@@ -170,7 +170,10 @@ const agge1 = calcAgee(years[0]);
 const agge2 = calcAgee(years[1]);
 const agge3 = calcAgee(years[2]);
 const agge4 = calcAgee(years[3]);
-console.log(agge1,agge2,agge3,agge4);
+const agge5 = calcAgee(years[years.length -1]);
+console.log(agge1,agge2,agge3,agge4,agge5);
 
+const ages = [calcAgee(yearss[0]),calcAgee(yearss[1]),calcAgee(yearss[yearss.length - 1])];
+console.log(ages);
 
 
