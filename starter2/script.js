@@ -145,12 +145,12 @@ const frind1 = "Michael";
 const frind2 = "Steven";
 const frind3 = "Peter";
 
-const frinds = ['Michael','Steven',"Peter"];
-console.log(frinds);
-console.log(frinds[0]);
-console.log(frinds[1]);
-console.log(frinds[2]);
-console.log(frinds.length);
+//const frinds = ['Michael','Steven',"Peter"];
+// console.log(frinds);
+// console.log(frinds[0]);
+// console.log(frinds[1]);
+// console.log(frinds[2]);
+// console.log(frinds.length);
 
 
 
@@ -177,3 +177,21 @@ const ages = [calcAgee(yearss[0]),calcAgee(yearss[1]),calcAgee(yearss[yearss.len
 console.log(ages);
 
 
+const frinds = ['Michael','Steven',"Peter"];
+
+//add elements
+const newLength = frinds.push('jay');
+console.log(frinds);
+console.log(newLength);
+
+frinds.unshift('John');
+console.log(frinds);
+
+//Remove elements
+frinds.pop();
+console.log(frinds);
+
+console.log(" ");
+console.log("Object");
+console.log("#############################################");
+console.log(" ");
