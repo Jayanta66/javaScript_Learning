@@ -61,3 +61,28 @@ const calcAge2 = function(birthYear){
 
 const age2 = calcAge2(1998);
 console.log(age2);
+
+
+console.log(" ");
+console.log("Arrow Function ");
+console.log("#############################################");
+console.log(" ");
+
+const calcAge3 = birthYear => 2037 - birthYear;
+const age3 = calcAge3(1991);
+console.log(age3);
+
+
+const yearsUntilRetirement = birthYear => {
+    const age = 2017 - birthYear;
+    const retirement = 65 - age;
+    return retirement;
+}
+
+console.log(yearsUntilRetirement(1991));
+
+
+console.log(" ");
+console.log("Function calling into another function");
+console.log("#############################################");
+console.log(" ");
